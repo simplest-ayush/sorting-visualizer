@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 400px;
+}
+.bar {
+  width: 20px;
+  margin: 2px;
+  background-color: #3498db;
+  transition: all ease-in-out .1s;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+select {
+  font-size: 16px;
+}
